@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #FFFFCC;
+}
+
+.listStyle {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.listStyle div {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.listStyle div:nth-child(1) {
+    background-color: #CCFFD1;
+}
+
+.listStyle div:nth-child(2) {
+    background-color: #CCF3FF;
+}
+
+.listStyle div:nth-child(3) {
+    background-color: #FFCCCC;
+}
+
+.header {
+    padding: 1vh 0 1vh 0;
+    background-color: #FFFFCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  border: none;
+  background: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+input {
+    height: 3vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+input:focus {
+    outline: 0;
+}
